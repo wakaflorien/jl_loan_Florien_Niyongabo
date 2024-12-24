@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .form-input {
+      @apply border border-teal-900 ring-0 outline-1 outline-teal-900 text-teal-900 p-2 rounded-md w-full;
+    }
+    .form-button {
+        @apply border border-teal-900 p-2 rounded-md bg-teal-900 hover:bg-teal-900/90 text-white hover:text-white/70;
+    }
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma', sans-serif;
+  }
